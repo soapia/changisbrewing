@@ -98,6 +98,12 @@ footer {
   margin-top: 2em;
 }
 
+.cup {
+  border-style: none;
+  height: 30em;
+  margin: none;
+}
+
 @media only screen and (max-width: 800px) {
   img {
     height: 10em !important;
@@ -113,5 +119,9 @@ footer {
   h4 {
     margin: 1em;
     font-size: 1em;
+  }
+  .cup {
+    height: 20em !important;
+    
   }
 }
