@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,800;1,400&display=swap');
+
+body {
+  background-color: #0b421a;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em !important;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+.smallz {
+  font-size: 25px !important;
+}
+
+.tan {
+  color:#eac784;
+  /* text-decoration: underline; */
+  font-style: italic
+}
+
+h3 {
+  margin: 0 1em 0 1em;
+}
+
+strong {
+  color: #eac784;
+}
+
+.col-5 {
+  text-align: left;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a {
+  color: #eac784;
+}
+
+.btn-warning {
+  background-color: #eac784;
+  border-color: #eac784;
+  padding: 1em 2em 1em 2em;
+  text-align: center;
+  margin: auto 1em auto 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.btn-primary {
+  background-color: #362415;
+  border-style: none;
+  margin: 0 10px 20px 10px;
+}
+
+code {
+  color: #eac784
+}
+
+.col-7 {
+  align-items: center;
+}
+
+.row {
+  margin-top: 3em;
+}
+
+img {
+  height: 20em;
+  /* padding: 5px; */
+  border: 2px solid #eac784;
+  margin-left: 1em;
+}
+
+h4 {
+  padding: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 1em;
+}
+
+
+
+footer {
+  background-color: #362415;
+  padding: 1em 0 1em 0;
+  margin-top: 2em;
+}
