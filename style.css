@@ -32,7 +32,7 @@ strong {
   color: #eac784;
 }
 
-.col-5 {
+.col-lg-5 {
   text-align: left;
 }
 
@@ -65,7 +65,7 @@ code {
   color: #eac784
 }
 
-.col-7 {
+.col-lg-7 {
   align-items: center;
 }
 
@@ -96,4 +96,22 @@ footer {
   background-color: #362415;
   padding: 1em 0 1em 0;
   margin-top: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    height: 10em !important;
+    margin-left: 1em;
+  }
+  .btn-warning {
+    margin: 1em;
+    padding: 0.5em;
+  }
+  h1 {
+    font-size: 4em !important;
+  }
+  h4 {
+    margin: 1em;
+    font-size: 1em;
+  }
 }
