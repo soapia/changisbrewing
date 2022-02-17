@@ -1,2 +1,10 @@
 
+$('#mac-tab a').on('click', function (e) {
+  e.preventDefault()
+  $('#mac').tab('show')
+})
 
+$('#pc-tab a').on('click', function (e) {
+  e.preventDefault()
+  $('#pc').tab('show')
+})
