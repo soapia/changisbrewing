@@ -8,3 +8,8 @@ $('#pc-tab a').on('click', function (e) {
   e.preventDefault()
   $('#pc').tab('show')
 })
+
+$('#web-tab a').on('click', function (e) {
+  e.preventDefault()
+  $('#web').tab('show')
+})
