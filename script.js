@@ -13,3 +13,8 @@ $('#web-tab a').on('click', function (e) {
   e.preventDefault()
   $('#web').tab('show')
 })
+
+
+function newTweet() {
+  
+}
